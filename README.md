@@ -62,7 +62,8 @@ max(|число1|,|число2|) - min(|число1|,|число2|)
 ![image](https://github.com/user-attachments/assets/eae499f9-2f62-4e77-90bc-918432d4f6f8)
 
 
-![image](https://github.com/user-attachments/assets/f70ba652-cb3f-4168-b580-ff85017d3840)
+![image](https://github.com/user-attachments/assets/e1d76f63-48d0-44e5-bc33-2ff95228adf5)
+
 
 
 
