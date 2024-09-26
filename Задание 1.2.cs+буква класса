@@ -23,6 +23,11 @@ namespace prject {
         cl = Convert.ToInt32(Console.ReadLine());
         if(cl < 9 || cl > 11 || cl == 10){System.Console.WriteLine("Вы не окончили школу(");}
       }
+      string letter = "";
+      while(letter == ""){
+        System.Console.WriteLine("Какая буква была у вашего класса: ");
+        letter = "" + Convert.ToString(Console.ReadLine());
+      }
       double x = 0;
       if(cl == 11){
         x = 2024 - (voz - 18);}
@@ -32,8 +37,8 @@ namespace prject {
       }
       System.Console.WriteLine("Привет " + Convert.ToString(im) + "!\n" +
       "\n" +
-      "Поздравляю с окончанием {0} класса школы №{1}\n" +
-      "в {2} учебном году.", cl, sch, x);
+      "Поздравляю с окончанием {0}{1} класса школы №{2}\n" +
+      "в {3} учебном году.", cl, letter, sch, x);
     }
   }
 }
